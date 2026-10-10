@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dupmnrbp2w40i"]
+
+[ext_resource type="Script" uid="uid://ch7u156xtnf6f" path="res://test_target.gd" id="1_reusa"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_5vvby"]
+size = Vector3(1, 2.3845215, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_reusa"]
+data = PackedVector3Array(-0.5, 1.1923, 0.5, 0.5, 1.1923, 0.5, -0.5, -1.1923, 0.5, 0.5, 1.1923, 0.5, 0.5, -1.1923, 0.5, -0.5, -1.1923, 0.5, 0.5, 1.1923, -0.5, -0.5, 1.1923, -0.5, 0.5, -1.1923, -0.5, -0.5, 1.1923, -0.5, -0.5, -1.1923, -0.5, 0.5, -1.1923, -0.5, 0.5, 1.1923, 0.5, 0.5, 1.1923, -0.5, 0.5, -1.1923, 0.5, 0.5, 1.1923, -0.5, 0.5, -1.1923, -0.5, 0.5, -1.1923, 0.5, -0.5, 1.1923, -0.5, -0.5, 1.1923, 0.5, -0.5, -1.1923, -0.5, -0.5, 1.1923, 0.5, -0.5, -1.1923, 0.5, -0.5, -1.1923, -0.5, 0.5, 1.1923, 0.5, -0.5, 1.1923, 0.5, 0.5, 1.1923, -0.5, -0.5, 1.1923, 0.5, -0.5, 1.1923, -0.5, 0.5, 1.1923, -0.5, -0.5, -1.1923, 0.5, 0.5, -1.1923, 0.5, -0.5, -1.1923, -0.5, 0.5, -1.1923, 0.5, 0.5, -1.1923, -0.5, -0.5, -1.1923, -0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5vvby"]
+size = Vector3(1, 2.5405273, 1)
+
+[node name="StaticBody3D" type="StaticBody3D" unique_id=405319747]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9846787, 0)
+script = ExtResource("1_reusa")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1537329721]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.69226074, 0)
+mesh = SubResource("BoxMesh_5vvby")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=1776106881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.04765129, -0.024948597)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=665232142]
+shape = SubResource("ConcavePolygonShape3D_reusa")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1660341180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.54711914, 0.035295606)
+shape = SubResource("BoxShape3D_5vvby")

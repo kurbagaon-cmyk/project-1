@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwkqr8q4j84xs"
+path="res://.godot/imported/Milestone.wav-069e1ce537f5aa30e40ce47c17a62239.sample"
+
+[deps]
+
+source_file="res://sounds/Jingles & Stingers/Milestone.wav"
+dest_files=["res://.godot/imported/Milestone.wav-069e1ce537f5aa30e40ce47c17a62239.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

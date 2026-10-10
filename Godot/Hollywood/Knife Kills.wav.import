@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpu0nx3fadts7"
+path="res://.godot/imported/Knife Kills.wav-f428d0fa135475debbb59e36905d7b1d.sample"
+
+[deps]
+
+source_file="res://Godot/Hollywood/Knife Kills.wav"
+dest_files=["res://.godot/imported/Knife Kills.wav-f428d0fa135475debbb59e36905d7b1d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bky6r1n4cq804"
+path="res://.godot/imported/It Laughs At You.wav-a2e6b3b538c6c1f8b88d2964e4a6d201.sample"
+
+[deps]
+
+source_file="res://sounds/Horror/It Laughs At You.wav"
+dest_files=["res://.godot/imported/It Laughs At You.wav-a2e6b3b538c6c1f8b88d2964e4a6d201.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

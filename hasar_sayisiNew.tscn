@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bh2vskqa4b3t0"]
+
+[ext_resource type="Script" uid="uid://ccaorskt66v0f" path="res://hasar_sayisi_new.gd" id="1_wxy1r"]
+
+[node name="HasarSayisi" type="Node3D" unique_id=1665850275]
+script = ExtResource("1_wxy1r")
+
+[node name="Label3D" type="Label3D" parent="." unique_id=385535436]
+billboard = 1
+no_depth_test = true
+modulate = Color(1, 0.2, 0.2, 1)
+text = "-15"
+font_size = 48
+outline_size = 8

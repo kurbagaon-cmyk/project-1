@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bynjme3bunjh5"
+path="res://.godot/imported/Select.wav-86125d5e7a546fcc33a008c128c65874.sample"
+
+[deps]
+
+source_file="res://Godot/UI & Menus/Select.wav"
+dest_files=["res://.godot/imported/Select.wav-86125d5e7a546fcc33a008c128c65874.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

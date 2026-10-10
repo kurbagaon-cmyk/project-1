@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wuf5kscmxkpj"
+path="res://.godot/imported/Swoosh Thunder.wav-930c4c04773474de67bed28390293a0b.sample"
+
+[deps]
+
+source_file="res://sounds/Motions and Impacts/Swoosh Thunder.wav"
+dest_files=["res://.godot/imported/Swoosh Thunder.wav-930c4c04773474de67bed28390293a0b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

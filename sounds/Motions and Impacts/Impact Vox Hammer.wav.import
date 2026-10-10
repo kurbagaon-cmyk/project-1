@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvecixc2270px"
+path="res://.godot/imported/Impact Vox Hammer.wav-d04abfdd6c52029f603b887f0a3a9110.sample"
+
+[deps]
+
+source_file="res://sounds/Motions and Impacts/Impact Vox Hammer.wav"
+dest_files=["res://.godot/imported/Impact Vox Hammer.wav-d04abfdd6c52029f603b887f0a3a9110.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

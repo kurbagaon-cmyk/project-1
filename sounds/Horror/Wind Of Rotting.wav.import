@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dblplqpf7aqh3"
+path="res://.godot/imported/Wind Of Rotting.wav-b11578d32ff671437498328545aca952.sample"
+
+[deps]
+
+source_file="res://sounds/Horror/Wind Of Rotting.wav"
+dest_files=["res://.godot/imported/Wind Of Rotting.wav-b11578d32ff671437498328545aca952.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

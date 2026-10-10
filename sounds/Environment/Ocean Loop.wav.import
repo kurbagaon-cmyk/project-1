@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dljq14d8hfbbw"
+path="res://.godot/imported/Ocean Loop.wav-40cabc13ff320f58da32fbac7cc24110.sample"
+
+[deps]
+
+source_file="res://sounds/Environment/Ocean Loop.wav"
+dest_files=["res://.godot/imported/Ocean Loop.wav-40cabc13ff320f58da32fbac7cc24110.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

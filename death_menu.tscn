@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://bnnxnxke207tj"]
+
+[ext_resource type="Script" uid="uid://b3awfh7vmdp4t" path="res://death_menu.gd" id="1_dhhda"]
+
+[node name="DeathMenu" type="CanvasLayer" unique_id=915418829]
+process_mode = 3
+script = ExtResource("1_dhhda")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1931953061]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.8156863, 0.05490196, 0, 0.29411766)
+
+[node name="Control" type="Control" parent="." unique_id=467330137]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=683326023]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Control/VBoxContainer" unique_id=1243583497]
+layout_mode = 2
+text = "YOU DIED"
+
+[node name="RestartButton" type="Button" parent="Control/VBoxContainer" unique_id=1208245503]
+layout_mode = 2
+text = "Restart"
+
+[node name="MainMenuButton" type="Button" parent="Control/VBoxContainer" unique_id=517529039]
+layout_mode = 2
+text = "MainMenu"

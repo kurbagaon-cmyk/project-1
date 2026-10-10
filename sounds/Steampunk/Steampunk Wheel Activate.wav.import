@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccmgritesvmbl"
+path="res://.godot/imported/Steampunk Wheel Activate.wav-55af884c640d019989e8c20dd2b4b8be.sample"
+
+[deps]
+
+source_file="res://sounds/Steampunk/Steampunk Wheel Activate.wav"
+dest_files=["res://.godot/imported/Steampunk Wheel Activate.wav-55af884c640d019989e8c20dd2b4b8be.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

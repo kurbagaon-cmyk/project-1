@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cafa4qt1un1gt"
+path="res://.godot/imported/Turret Reload.wav-6432c125cb73cb5a1e6249cfbf0ce2ed.sample"
+
+[deps]
+
+source_file="res://Godot/Sci-Fi/Turret Reload.wav"
+dest_files=["res://.godot/imported/Turret Reload.wav-6432c125cb73cb5a1e6249cfbf0ce2ed.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

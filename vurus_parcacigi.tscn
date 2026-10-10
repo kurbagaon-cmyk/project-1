@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://bf46mvakqcub5"]
+
+[ext_resource type="Script" uid="uid://yeo8nnqursen" path="res://vurus_parcacigi.gd" id="1_j15jh"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_qmqhn"]
+direction = Vector3(0, 1, 0)
+spread = 180.0
+initial_velocity_min = 3.0
+initial_velocity_max = 8.0
+gravity = Vector3(0, -159.8, 0)
+damping_min = 0.5
+damping_max = 1.0
+scale_min = 0.049999997
+scale_max = 0.14999999
+color = Color(1, 0, 0.2, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wxjpk"]
+albedo_color = Color(1, 0.8, 0.2, 1)
+emission_enabled = true
+emission = Color(1, 0, 0.101960786, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_5vvby"]
+material = SubResource("StandardMaterial3D_wxjpk")
+
+[node name="VurusParcacigi" type="Node3D" unique_id=459464050]
+script = ExtResource("1_j15jh")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=1109567564]
+emitting = false
+sub_emitter = NodePath(".")
+lifetime = 0.3
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_qmqhn")
+draw_pass_1 = SubResource("SphereMesh_5vvby")

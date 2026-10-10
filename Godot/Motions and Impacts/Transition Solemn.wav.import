@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5tab3jbr0bk4"
+path="res://.godot/imported/Transition Solemn.wav-935baadd6b1e3cf95e056c909bd61e16.sample"
+
+[deps]
+
+source_file="res://Godot/Motions and Impacts/Transition Solemn.wav"
+dest_files=["res://.godot/imported/Transition Solemn.wav-935baadd6b1e3cf95e056c909bd61e16.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

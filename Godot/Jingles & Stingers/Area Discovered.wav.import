@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqfnckbrfa5ah"
+path="res://.godot/imported/Area Discovered.wav-b1331c9556bf253622dbb0440c1ac9a9.sample"
+
+[deps]
+
+source_file="res://Godot/Jingles & Stingers/Area Discovered.wav"
+dest_files=["res://.godot/imported/Area Discovered.wav-b1331c9556bf253622dbb0440c1ac9a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmqu6bvjh3oba"
+path="res://.godot/imported/Automaton Activate.wav-1133b38f27f6b05a9d280543767ed59f.sample"
+
+[deps]
+
+source_file="res://sounds/Steampunk/Automaton Activate.wav"
+dest_files=["res://.godot/imported/Automaton Activate.wav-1133b38f27f6b05a9d280543767ed59f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

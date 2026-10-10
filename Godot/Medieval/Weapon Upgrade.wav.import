@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvnc86252rety"
+path="res://.godot/imported/Weapon Upgrade.wav-9aac2db141b7d6267b3da0a4629f5241.sample"
+
+[deps]
+
+source_file="res://Godot/Medieval/Weapon Upgrade.wav"
+dest_files=["res://.godot/imported/Weapon Upgrade.wav-9aac2db141b7d6267b3da0a4629f5241.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

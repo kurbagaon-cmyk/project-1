@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://klf658cbyi78"]
+
+[ext_resource type="Script" uid="uid://bidf7c4x0xmcu" path="res://pause_menu.gd" id="1_hdmo1"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=1007714756]
+process_mode = 2
+script = ExtResource("1_hdmo1")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2115462459]
+show_behind_parent = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.43529412)
+
+[node name="Control" type="Control" parent="." unique_id=493174131]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=799877292]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -568.5
+offset_top = -314.0
+offset_right = 568.5
+offset_bottom = 314.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Control/VBoxContainer" unique_id=1823181326]
+layout_mode = 2
+text = "PAUSE"
+
+[node name="ResumeButton" type="Button" parent="Control/VBoxContainer" unique_id=1176253961]
+layout_mode = 2
+text = "Resume"
+
+[node name="MainMenuButton" type="Button" parent="Control/VBoxContainer" unique_id=162750811]
+layout_mode = 2
+text = "MainMenu"
+
+[node name="QuitButton" type="Button" parent="Control/VBoxContainer" unique_id=25321708]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="Control/VBoxContainer/ResumeButton" to="." method="_on_cikis_pressed"]
+[connection signal="pressed" from="Control/VBoxContainer/ResumeButton" to="." method="_on_ana_menu_pressed"]
+[connection signal="pressed" from="Control/VBoxContainer/ResumeButton" to="." method="_on_devam_pressed"]

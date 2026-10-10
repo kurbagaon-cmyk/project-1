@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://b55jlepfbd1y1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qmqhn"]
+albedo_color = Color(0.17688307, 0.0039638816, 0.1557434, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jytnp"]
+albedo_color = Color(0.31799886, 0.13498296, 0.31799886, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5vvby"]
+albedo_color = Color(0.53022385, 0.2478419, 0, 1)
+
+[node name="Node3D" type="Node3D" unique_id=1405295481]
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=451411870]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D" unique_id=946321638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.8986816)
+size = Vector3(6, 3, 6)
+material = SubResource("StandardMaterial3D_qmqhn")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1036075167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.139356)
+operation = 2
+size = Vector3(5.6, 2.8, 5.367505)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1060110300]
+operation = 2
+size = Vector3(1.2, 2.2, 2)
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="CSGCombiner3D" unique_id=2042336330]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4305599, 5.9075956)
+polygon = PackedVector2Array(-3.6270297, 0.06203997, 0, 2, 3.7890844, -0.009185314)
+depth = 6.0
+material = SubResource("StandardMaterial3D_jytnp")
+
+[node name="CSGPolygon3D2" type="CSGPolygon3D" parent="CSGCombiner3D" unique_id=73973424]
+transform = Transform3D(1.9106853e-15, 4.3711385e-08, 1, 0.99999994, -4.3711385e-08, 0, 4.3711385e-08, 0.99999994, -4.371139e-08, 0.5470982, -1.2377455, -1.3592248)
+polygon = PackedVector2Array(-0.43561414, -0.32667303, -0.5275939, 1.1740575, 0.20031911, 1.2007484)
+material = SubResource("StandardMaterial3D_5vvby")

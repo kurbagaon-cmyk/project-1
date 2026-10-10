@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjtykbgtot83b"
+path="res://.godot/imported/Metal Glass Destruction.wav-4bc51916e26d7df6ede4988ec43c1d87.sample"
+
+[deps]
+
+source_file="res://Godot/Hollywood/Metal Glass Destruction.wav"
+dest_files=["res://.godot/imported/Metal Glass Destruction.wav-4bc51916e26d7df6ede4988ec43c1d87.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

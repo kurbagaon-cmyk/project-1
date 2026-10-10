@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7ki3jyoo7phy"
+path="res://.godot/imported/Animal Pain.wav-59352bcef8da9642c581a125b4929764.sample"
+
+[deps]
+
+source_file="res://Godot/Community Requests/Animal Pain.wav"
+dest_files=["res://.godot/imported/Animal Pain.wav-59352bcef8da9642c581a125b4929764.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

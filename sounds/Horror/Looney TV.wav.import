@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b72wfiabre175"
+path="res://.godot/imported/Looney TV.wav-80ccea0ebf3c1af0be89d42ba3314701.sample"
+
+[deps]
+
+source_file="res://sounds/Horror/Looney TV.wav"
+dest_files=["res://.godot/imported/Looney TV.wav-80ccea0ebf3c1af0be89d42ba3314701.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yvuy4btnm2rh"
+path="res://.godot/imported/Outer Space Scanner Loop.wav-797f3be142ee6808930476fb4a9f7504.sample"
+
+[deps]
+
+source_file="res://sounds/Sci-Fi/Outer Space Scanner Loop.wav"
+dest_files=["res://.godot/imported/Outer Space Scanner Loop.wav-797f3be142ee6808930476fb4a9f7504.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://c8688gyyn1a3j"]
+
+[ext_resource type="Script" uid="uid://bhpsdkfcqosdj" path="res://hud.gd" id="1_37p78"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=922460011 node_paths=PackedStringArray("health_bar", "blood_bar")]
+script = ExtResource("1_37p78")
+health_bar = NodePath("HUD/MarginContainer/VBoxContainer/Can satırı/Label/HealthBar")
+blood_bar = NodePath("HUD/MarginContainer/VBoxContainer/Kan satırı/BloodBar")
+
+[node name="HUD" type="Control" parent="." unique_id=1647841378]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="HUD" unique_id=64591876]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/MarginContainer" unique_id=800842811]
+layout_mode = 2
+
+[node name="Can satırı" type="HBoxContainer" parent="HUD/MarginContainer/VBoxContainer" unique_id=453875193]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HUD/MarginContainer/VBoxContainer/Can satırı" unique_id=2002052123]
+layout_mode = 2
+text = "❤️"
+
+[node name="HealthBar" type="ProgressBar" parent="HUD/MarginContainer/VBoxContainer/Can satırı/Label" unique_id=543512698]
+custom_minimum_size = Vector2(200, 20)
+layout_mode = 0
+offset_right = 4.0
+offset_bottom = 27.0
+value = 100.0
+
+[node name="Kan satırı" type="HBoxContainer" parent="HUD/MarginContainer/VBoxContainer" unique_id=795706807]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HUD/MarginContainer/VBoxContainer/Kan satırı" unique_id=1290785707]
+layout_mode = 2
+text = "🩸"
+
+[node name="BloodBar" type="ProgressBar" parent="HUD/MarginContainer/VBoxContainer/Kan satırı" unique_id=1016284653]
+custom_minimum_size = Vector2(200, 20)
+layout_mode = 2
+value = 100.0
+
+[node name="ComboYazi" type="Label" parent="." unique_id=1320028927]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -262.0
+offset_bottom = 67.0
+grow_horizontal = 0
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 48
+text = "2x COMBO!"

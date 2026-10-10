@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bunskkyi3xjty"
+path="res://.godot/imported/Wormhole Drive.wav-dae22d50b259e95c3f56b102e46fb58c.sample"
+
+[deps]
+
+source_file="res://Godot/Sci-Fi/Wormhole Drive.wav"
+dest_files=["res://.godot/imported/Wormhole Drive.wav-dae22d50b259e95c3f56b102e46fb58c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

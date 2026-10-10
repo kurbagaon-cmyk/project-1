@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c15pw6im5jnab"
+path="res://.godot/imported/Hammer Fall.wav-443ed4130100cb953afe44f786e55d26.sample"
+
+[deps]
+
+source_file="res://Godot/Community Requests/Hammer Fall.wav"
+dest_files=["res://.godot/imported/Hammer Fall.wav-443ed4130100cb953afe44f786e55d26.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

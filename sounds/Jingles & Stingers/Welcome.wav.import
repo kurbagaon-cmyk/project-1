@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://blim41q0vynvc"
+path="res://.godot/imported/Welcome.wav-0b3105627a951981f3549e6dab661ffc.sample"
+
+[deps]
+
+source_file="res://sounds/Jingles & Stingers/Welcome.wav"
+dest_files=["res://.godot/imported/Welcome.wav-0b3105627a951981f3549e6dab661ffc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

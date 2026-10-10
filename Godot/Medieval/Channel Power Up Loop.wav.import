@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5je6x5bodlvc"
+path="res://.godot/imported/Channel Power Up Loop.wav-9a9c1fc4329c64a0f6ba260694615912.sample"
+
+[deps]
+
+source_file="res://Godot/Medieval/Channel Power Up Loop.wav"
+dest_files=["res://.godot/imported/Channel Power Up Loop.wav-9a9c1fc4329c64a0f6ba260694615912.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

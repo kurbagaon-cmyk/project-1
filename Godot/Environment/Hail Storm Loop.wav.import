@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wi0iqeom3vqx"
+path="res://.godot/imported/Hail Storm Loop.wav-332f290a807bff7f6a3ad9b2f9d27b54.sample"
+
+[deps]
+
+source_file="res://Godot/Environment/Hail Storm Loop.wav"
+dest_files=["res://.godot/imported/Hail Storm Loop.wav-332f290a807bff7f6a3ad9b2f9d27b54.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
